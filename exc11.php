@@ -1,3 +1,4 @@
+<?php
 /*********************************************************
 Curso: Tecnologia em Análise e Desenvolvimento de Sistemas
 Disciplina: Linguagem e Técnicas de Programacão
@@ -14,7 +15,6 @@ Data: 19 de Setembro de 2026
 Descritivo: Faz automaticamente uma contagem de 1 a 10 usando loop
 **/*******************************************************/
 
-<?php
 $i = 1;
 
 do {
