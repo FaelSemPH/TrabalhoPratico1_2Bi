@@ -12,7 +12,8 @@ Componentes:
  26009929-2 - Rafael da Silva Barbosa
  26008249-2 - Vítor Hugo Martins Prates 
 Data: 19 de Setembro de 2026
-Descritivo: ...
+Descritivo: A função recebe um limite numérico n e inicializa um array vazio. 
+Ela executa um laço de repetição começando em 0 e avançando até n
 **********************/
 
 function gerarArrayPares($n) {
