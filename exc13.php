@@ -1,3 +1,4 @@
+<?php
 /*********************************************************
 Curso: Tecnologia em Análise e Desenvolvimento de Sistemas
 Disciplina: Linguagem e Técnicas de Programacão
@@ -12,9 +13,8 @@ Componentes:
  26008249-2 - Vítor Hugo Martins Prates 
 Data: 19 de Setembro de 2026
 Descritivo: Valida uma senha se está correta
-**/*******************************************************/
+*******************************************************/
 
-<?php
 $senhaCorreta = "1234";
 
 do {
