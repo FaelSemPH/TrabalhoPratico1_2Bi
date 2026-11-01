@@ -12,7 +12,9 @@ Componentes:
  26009929-2 - Rafael da Silva Barbosa
  26008249-2 - Vítor Hugo Martins Prates 
 Data: 19 de Setembro de 2026
-Descritivo: ...
+Descritivo: A função recebe um número n e multiplica consecutivamente
+os valores de 1 até n o acumulador dessa multiplicação sequencial é retornado ao final
+Caso o número seja 0 ou 1, ela retorna diretamente o valor 1.
 **********************/
 
 function fatorial($numero) {
