@@ -1,3 +1,4 @@
+<?php 
 /***********************
 Curso: Tecnologia em Análise e Desenvolvimento de Sistemas
 Disciplina: Linguagem e Técnicas de Programacão
@@ -14,8 +15,7 @@ Data: 19 de Setembro de 2026
 Descritivo: a mesma coisa do primero, porem de 2 a 20
 ****************************************************************/
 
-<?php 
-for ($i = 2; $i <= 20; &i += 2) {
-    echo $i . "<br>"
+for ($i = 2; $i <= 20; $i += 2) {
+    echo $i . "<br>" ;
 }
 ?>
