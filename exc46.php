@@ -12,7 +12,10 @@ Componentes:
  26009929-2 - Rafael da Silva Barbosa
  26008249-2 - Vítor Hugo Martins Prates 
 Data: 19 de Setembro de 2026
-Descritivo: ...
+Descritivo: A função recebe um número n. Primeiramente, ela elimina casos óbvios que testa a divisão de n por todos
+os números inteiros a partir de 2 até a raiz quadrada de n. Se o resto de qualquer uma dessas divisões
+for igual a zero, a função é interrompida e retorna false.
+Caso o laço termine sem encontrar divisores, ela retorna true.
 **********************/
 
 function ehPrimo($numero) {
