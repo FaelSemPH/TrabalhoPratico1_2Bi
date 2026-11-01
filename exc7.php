@@ -1,3 +1,4 @@
+<?php
 /***********************
 Curso: Tecnologia em Análise e Desenvolvimento de Sistemas
 Disciplina: Linguagem e Técnicas de Programacão
@@ -14,7 +15,6 @@ Data: 19 de Setembro de 2026
 Descritivo: esse pede um numero para o usuário, até que ele acerte o numero definido, nesse caso 7
 ****************************************************************/
 
-<?php
 $numero = 7;
 
 $tentativa = 0;
