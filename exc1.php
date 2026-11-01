@@ -1,3 +1,4 @@
+<?php
 /***********************
 Curso: Tecnologia em Análise e Desenvolvimento de Sistemas
 Disciplina: Linguagem e Técnicas de Programacão
@@ -14,7 +15,6 @@ Data: 19 de Setembro de 2026
 Descritivo: codigo que imprime os numeros em sequencia de 1 a 10
 ****************************************************************/
 
-<?php
 for ($i = 1; $i <= 10; &i++) {
     echo $i . "<br>";
 }
