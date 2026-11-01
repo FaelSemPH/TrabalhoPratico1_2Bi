@@ -1,3 +1,4 @@
+<?php
 /***********************
 Curso: Tecnologia em Análise e Desenvolvimento de Sistemas
 Disciplina: Linguagem e Técnicas de Programacão
@@ -11,10 +12,9 @@ Componentes:
  26009929-2 - Rafael da Silva Barbosa
  26008249-2 - Vítor Hugo Martins Prates 
 Data: 19 de Setembro de 2026
-Descritivo: esse imprime a toda a tabuada do 5, podem só de 1 a 10
+Descritivo: esse imprime a toda a tabuada do 5, porem só de 1 a 10
 ****************************************************************/
 
-<?php
 for ($i = 1; $i <= 10; $i++) {
     echo "5 x $i = " . (5 * $i) . "<br>";
 }
