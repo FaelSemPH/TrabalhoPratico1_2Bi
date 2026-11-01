@@ -1,3 +1,4 @@
+<?php
 /*********************************************************
 Curso: Tecnologia em Análise e Desenvolvimento de Sistemas
 Disciplina: Linguagem e Técnicas de Programacão
@@ -14,7 +15,6 @@ Data: 19 de Setembro de 2026
 Descritivo: O programa conta quantos digitos tem um numero inteiro
 **/*******************************************************/
 
-<?php
 $numero = (int) readline("Digite um número inteiro: ");
 $numeroAbsoluto = abs($numero); // Trata números negativos
 $contador = 0;
