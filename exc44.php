@@ -12,7 +12,7 @@ Componentes:
  26009929-2 - Rafael da Silva Barbosa
  26008249-2 - Vítor Hugo Martins Prates 
 Data: 19 de Setembro de 2026
-Descritivo: ...
+Descritivo:  A função recebe dois valores numéricos correspondentes à base (largura) e à altura da figura.
 **********************/
 
 function calcularAreaRetangulo($largura, $altura) {
