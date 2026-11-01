@@ -21,5 +21,5 @@ function mostrarDados($nome, $idade, $cidade) {
     echo "Cidade: " . $cidade . "\n";
 }
 
-mostrarDados("João", 25, "Curitiba");
+mostrarDados("Rafael", 19, "Curitiba");
 ?>
