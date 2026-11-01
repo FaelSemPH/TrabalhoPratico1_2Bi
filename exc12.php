@@ -1,3 +1,4 @@
+<?php
 /*********************************************************
 Curso: Tecnologia em Análise e Desenvolvimento de Sistemas
 Disciplina: Linguagem e Técnicas de Programacão
@@ -12,9 +13,8 @@ Componentes:
  26008249-2 - Vítor Hugo Martins Prates 
 Data: 19 de Setembro de 2026
 Descritivo: Faz um menu de opções
-**/*******************************************************/
+*******************************************************/
 
-<?php
 do {
     echo "\n--- MENU ---\n";
     echo "1. Iniciar\n";
