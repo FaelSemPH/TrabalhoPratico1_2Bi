@@ -1,3 +1,4 @@
+<?php
 /*********
 Curso: Tecnologia em Análise e Desenvolvimento de Sistemas
 Disciplina: Linguagem e Técnicas de Programacão
@@ -13,7 +14,6 @@ Componentes:
 Data: 19 de Setembro de 2026
 Descritivo: ...
 **********************/
-<?php
 
 $frutas = ["Maçã", "Banana", "Uva"];
 
@@ -22,5 +22,4 @@ function obterPrimeiroElemento($array) {
 }
 
 echo obterPrimeiroElemento($frutas);
-
 ?>
