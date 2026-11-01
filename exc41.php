@@ -12,12 +12,13 @@ Componentes:
  26009929-2 - Rafael da Silva Barbosa
  26008249-2 - Vítor Hugo Martins Prates 
 Data: 24 de Outubro de 2026
-Descritivo: Procedimento: Crie um procedimento desenharLinha que imprima uma linha de 20 hifens.
+Descritivo: Função: Crie uma função chamada somar que receba dois números e retorne a soma deles.
 ****************************************************************/
 
-function desenharLinha() {
-    echo str_repeat("-", 20) . "\n";
+function somar($num1, $num2) {
+    return $num1 + $num2;
 }
 
-desenharLinha();
+$resultado = somar(15, 25);
+echo "A soma é: " . $resultado . "\n";
 ?>
