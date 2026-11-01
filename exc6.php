@@ -1,3 +1,4 @@
+<?php
 /***********************
 Curso: Tecnologia em Análise e Desenvolvimento de Sistemas
 Disciplina: Linguagem e Técnicas de Programacão
@@ -14,7 +15,6 @@ Data: 19 de Setembro de 2026
 Descritivo: esse imprime os numeoros de 1 a 10, só que usando while 
 ****************************************************************/
 
-<?php
 $i = 1;
 
 while ($i <= 10) {
