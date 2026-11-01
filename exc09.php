@@ -1,3 +1,4 @@
+<?php
 /*********************************************************
 Curso: Tecnologia em Análise e Desenvolvimento de Sistemas
 Disciplina: Linguagem e Técnicas de Programacão
@@ -14,7 +15,6 @@ Data: 19 de Setembro de 2026
 Descritivo: Soma de numeros onde o usuario determina quantos serão
 ********************************************************/
 
-<?php
 $soma = 0;
 
 while (true) {
