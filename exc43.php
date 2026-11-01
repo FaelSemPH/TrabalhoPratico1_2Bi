@@ -12,7 +12,9 @@ Componentes:
  26009929-2 - Rafael da Silva Barbosa
  26008249-2 - Vítor Hugo Martins Prates 
 Data: 19 de Setembro de 2026
-Descritivo: ...
+Descritivo: A função recebe uma string como parâmetro de entrada e utiliza
+ um método nativo da linguagem para processar a string inteira de uma só vez, devolvendo o 
+ texto modificado sem alterar os caracteres especiais ou numéricos.
 **********************/
 
 function converterParaMaiusculas($texto) {
