@@ -15,7 +15,7 @@ Data: 19 de Setembro de 2026
 Descritivo: codigo que imprime os numeros em sequencia de 1 a 10
 ****************************************************************/
 
-for ($i = 1; $i <= 10; &i++) {
+for ($i = 1; $i <= 10; $i++) {
     echo $i . "<br>";
 }
 ?>
