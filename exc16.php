@@ -1,3 +1,4 @@
+<?php
 /*********************************************************
 Curso: Tecnologia em Análise e Desenvolvimento de Sistemas
 Disciplina: Linguagem e Técnicas de Programacão
@@ -12,11 +13,9 @@ Componentes:
  26008249-2 - Vítor Hugo Martins Prates 
 Data: 19 de Setembro de 2026
 Descritivo: cria um array com 5 cidades
-**/*******************************************************/
+*******************************************************/
 
-<?php
 $cidades = ["São Paulo", "Rio de Janeiro", "Curitiba", "Salvador", "Belo Horizonte"];
 
-// Para exibir:
 print_r($cidades);
 ?>
