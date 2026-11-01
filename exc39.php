@@ -12,12 +12,14 @@ Componentes:
  26009929-2 - Rafael da Silva Barbosa
  26008249-2 - Vítor Hugo Martins Prates 
 Data: 24 de Outubro de 2026
-Descritivo: Procedimento: Crie um procedimento desenharLinha que imprima uma linha de 20 hifens.
+Descritivo: Procedimento: Crie um procedimento contagem Regressiva que receba um número e imprima uma contagem regressiva a partir dele até 0.
 ****************************************************************/
 
-function desenharLinha() {
-    echo str_repeat("-", 20) . "\n";
+function contagemRegressiva($numero) {
+    for ($i = $numero; $i >= 0; $i--) {
+        echo $i . "\n";
+    }
 }
 
-desenharLinha();
+contagemRegressiva(10);
 ?>
