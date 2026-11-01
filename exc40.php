@@ -12,12 +12,15 @@ Componentes:
  26009929-2 - Rafael da Silva Barbosa
  26008249-2 - Vítor Hugo Martins Prates 
 Data: 24 de Outubro de 2026
-Descritivo: Procedimento: Crie um procedimento desenharLinha que imprima uma linha de 20 hifens.
+Descritivo: Procedimento: Faça um procedimento que receba um array associativo de um carro (marca, modelo, ano) e imprima seus dados.
 ****************************************************************/
 
-function desenharLinha() {
-    echo str_repeat("-", 20) . "\n";
+function imprimirDadosCarro($carro) {
+    echo "Marca: " . $carro['marca'] . "\n";
+    echo "Modelo: " . $carro['modelo'] . "\n";
+    echo "Ano: " . $carro['ano'] . "\n";
 }
 
-desenharLinha();
+$meuCarro = ["marca" => "Peugeot", "modelo" => "BB1", "ano" => 2010];
+imprimirDadosCarro($meuCarro);
 ?>
