@@ -1,3 +1,4 @@
+<?php
 /*********
 Curso: Tecnologia em Análise e Desenvolvimento de Sistemas
 Disciplina: Linguagem e Técnicas de Programacão
@@ -13,7 +14,6 @@ Componentes:
 Data: 19 de Setembro de 2026
 Descritivo: ...
 **********************/
-<?php
 
 function fatorial($numero) {
     $resultado = 1;
@@ -26,5 +26,4 @@ function fatorial($numero) {
 }
 
 echo fatorial(5);
-
 ?>
