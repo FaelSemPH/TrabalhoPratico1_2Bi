@@ -1,3 +1,4 @@
+<?php
 /*********************************************************
 Curso: Tecnologia em Análise e Desenvolvimento de Sistemas
 Disciplina: Linguagem e Técnicas de Programacão
@@ -12,9 +13,8 @@ Componentes:
  26008249-2 - Vítor Hugo Martins Prates 
 Data: 19 de Setembro de 2026
 Descritivo: faz os numeros primos de 1 a 50
-**/*******************************************************/
+*******************************************************/
 
-<?php
 echo "Números primos entre 1 e 50:\n";
 
 for ($n = 2; $n <= 50; $n++) {
