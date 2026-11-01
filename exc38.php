@@ -12,12 +12,19 @@ Componentes:
  26009929-2 - Rafael da Silva Barbosa
  26008249-2 - Vítor Hugo Martins Prates 
 Data: 24 de Outubro de 2026
-Descritivo: Procedimento: Crie um procedimento desenharLinha que imprima uma linha de 20 hifens.
+Descritivo: Procedimento: Elabore um procedimento chamado calcularMediaAluno que receba duas notas e imprima a média e se o aluno foi "Aprovado" (média >=7) ou "Reprovado".
 ****************************************************************/
 
-function desenharLinha() {
-    echo str_repeat("-", 20) . "\n";
+function calcularMediaAluno($nota1, $nota2) {
+    $media = ($nota1 + $nota2) / 2;
+    echo "Média: " . $media . "\n";
+    
+    if ($media >= 7) {
+        echo "Situação: Aprovado\n";
+    } else {
+        echo "Situação: Reprovado\n";
+    }
 }
 
-desenharLinha();
+calcularMediaAluno(8.5, 6.0);
 ?>
