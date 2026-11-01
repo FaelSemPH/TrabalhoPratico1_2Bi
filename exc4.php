@@ -1,3 +1,4 @@
+<?php
 /***********************
 Curso: Tecnologia em Análise e Desenvolvimento de Sistemas
 Disciplina: Linguagem e Técnicas de Programacão
@@ -14,7 +15,6 @@ Data: 19 de Setembro de 2026
 Descritivo: esse usa o for pra fazer a contagem de 1 a 10, porem, em ordem decressente 
 ****************************************************************/
 
-<?php
 for ($i = 10; $i >= 1; $i--) {
     echo $i . "<br>";
 }
