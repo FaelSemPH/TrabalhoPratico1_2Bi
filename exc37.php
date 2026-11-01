@@ -12,12 +12,14 @@ Componentes:
  26009929-2 - Rafael da Silva Barbosa
  26008249-2 - Vítor Hugo Martins Prates 
 Data: 24 de Outubro de 2026
-Descritivo: Procedimento: Crie um procedimento desenharLinha que imprima uma linha de 20 hifens.
+Descritivo: Procedimento com Múltiplos Parâmetros: Crie um procedimento mostrar Dados que receba nome, idade e cidade e os imprima de forma organizada.
 ****************************************************************/
 
-function desenharLinha() {
-    echo str_repeat("-", 20) . "\n";
+function mostrarDados($nome, $idade, $cidade) {
+    echo "Nome: " . $nome . "\n";
+    echo "Idade: " . $idade . "\n";
+    echo "Cidade: " . $cidade . "\n";
 }
 
-desenharLinha();
+mostrarDados("João", 25, "Curitiba");
 ?>
