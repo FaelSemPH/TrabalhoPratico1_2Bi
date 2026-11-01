@@ -12,7 +12,10 @@ Componentes:
  26009929-2 - Rafael da Silva Barbosa
  26008249-2 - Vítor Hugo Martins Prates 
 Data: 19 de Setembro de 2026
-Descritivo: ...
+Descritivo: A função recebe uma string e inicia uma variável contadora em zero 
+Ela percorre o texto caractere por caractere (geralmente convertendo tudo para minúsculo primeiro para simplificar a checagem)
+e verifica se a letra atual é uma vogal (A, E, I, O, U). Cada vez que uma correspondência 
+é encontrada, o contador é incrementado em 1. Ao final do loop, o valor total é retornado.
 **********************/
 
 function contarVogais($texto) {
